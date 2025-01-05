@@ -40,6 +40,16 @@ export function Home() {
         </div>
 
         <div className="grid md:grid-cols-3 gap-6">
+          <div className="relative transform transition-all duration-300 hover:scale-105 hover:shadow-2xl rounded-lg overflow-hidden">
+            <FeatureCard
+              icon={<Server className="w-full h-full text-indigo-500" />}
+              title="Beta Server Access"
+              description="Get exclusive access to our server while it's still in beta. Help us shape the future!"
+            />
+            <span className="absolute top-0 right-0 bg-red-600 text-white text-xs font-semibold px-3 py-1 rounded-br-lg">
+              BETA
+            </span>
+          </div>
           {[
             {
               icon: <Users className="w-full h-full" />,
