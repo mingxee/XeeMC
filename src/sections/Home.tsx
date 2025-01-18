@@ -30,7 +30,7 @@ export function Home() {
               To play on our server, you need to join our Discord community first!
             </p>
             <a
-              href="https://discord.gg/9hewB3QYAu"
+              href="https://discord.gg/wd3YDx8Uem"
               className="inline-flex items-center gap-2 bg-[#5865F2] hover:bg-[#4752C4] px-6 py-3 rounded-lg font-semibold transition-all duration-300 hover:shadow-lg hover:shadow-[#5865F2]/20"
             >
               <MessageSquare size={20} className="animate-bounce" />
