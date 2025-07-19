@@ -42,8 +42,8 @@ export function ServerInfo() {
       <div className="absolute inset-0 bg-gradient-to-r from-green-500/10 via-transparent to-blue-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
       <h2 className="text-2xl font-bold mb-4">Server Information</h2>
       <div className="space-y-4">
-        <ServerDetail label="Java Edition IP" value="mc.mingxee.xyz" />
-        <ServerDetail label="Bedrock Edition Port" value="9299" />
+        <ServerDetail label="Java Edition IP" value="None" />
+        <ServerDetail label="Bedrock Edition Port" value="None" />
       </div>
     </Card>
   );
